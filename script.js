@@ -2,7 +2,7 @@ function tabuada(){
     let num = document.getElementById("txtn");
     let tab = document.getElementById("seltab");
     if(num.value.lenght == 0){
-        window.alert("Por favor digite um numero !");
+        window.alert("Por favor tecle algum numero !");
     }
     else{
         let n = Number(num.value);
